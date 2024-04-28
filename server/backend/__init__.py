@@ -17,7 +17,7 @@ def create_app():
     app = Flask(__name__)
 
     # Allow requests from Netlify domain
-    cors = CORS(app, resources={r"/*": {"origins": ["https://master--dormstorm.netlify.app"]}})
+    CORS(app, resources={r"/*": {"origins": "https://dormstorm.netlify.app"}})
 
     # Register the dormitories blueprint
     app.register_blueprint(dorms_bp)
