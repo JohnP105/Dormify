@@ -15,7 +15,9 @@ from .routes import dorms_bp, DATABASE_URL
 def create_app():
     """Create and configure the Flask application."""
     app = Flask(__name__)
-    cors = CORS(app, resources={r"/*": {"origins": "http://localhost:5173"}})
+
+    # Allow requests from Netlify domain
+    cors = CORS(app, resources={r"/*": {"origins": ["https://master--dormstorm.netlify.app"]}})
 
     # Register the dormitories blueprint
     app.register_blueprint(dorms_bp)
