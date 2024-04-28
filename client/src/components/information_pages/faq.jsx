@@ -2,46 +2,10 @@ import { useState, useEffect } from 'react'
 import ContactExpert from "./contact_expert.jsx";
 import FAQBlock from "./faq_block.jsx";
 import faq_data from "./faq_data.jsx";
-
 import styles from "../../css/information_pages/faq.module.css"
 
-function FAQ() {
-    const [dorms, setDorms] = useState([]);
-
-    useEffect(() => {
-        fetchDorms();
-    }, []); // Empty dependency array ensures the effect runs only once when the component mounts
-
-    const fetchDorms = () => {
-        const requestOptions = {
-            method: "GET",
-            headers: {"Content-Type": "application/json"},
-        };
-
-        fetch("http://127.0.0.1:5000/dorms", requestOptions)
-            .then((response) => {
-                if (!response.ok) {
-                    throw new Error("Failed to fetch dorms");
-                }
-                return response.json();
-            })
-            .then((data) => {
-                setDorms(data)
-            })
-            .catch((error) => {
-                console.error("Error connecting to backend:", error);
-            });
-    };
-
-    // <div>
-    //                         {dorms.map(dorm => (
-    //                             <div key={dorm.id}>
-    //                                 <p>Name: {dorm.name}</p>
-    //                                 <p>Type: {dorm.type}</p>
-    //                                 {/* Render other dormitory details */}
-    //                             </div>
-    //                         ))}
-    //                     </div>
+// eslint-disable-next-line react/prop-types
+function FAQ({navigation}) {
     return (
         <>
             <div className={styles.faqPageContentsContainer}>
@@ -52,15 +16,13 @@ function FAQ() {
                     })}
                 </div>
                 <div className={`${styles.faqPageContents}`}>
-                    <ContactExpert/>
+                    <ContactExpert navigation={navigation}/>
                 </div>
 
             </div>
 
         </>
     );
-
-
 }
 
 

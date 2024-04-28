@@ -42,5 +42,8 @@
     color: #545578;
     align-content: center;
     text-align: center;
+}
 
+.contactSupport:hover {
+    cursor: pointer;
 }

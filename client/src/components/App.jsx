@@ -66,7 +66,7 @@ function App() {
                 return (
                     <>
                         <PageHeader headerText={"Frequently Asked Questions"} />
-                        <FAQ />
+                        <FAQ navigation={setPage}/>
                     </>
                 );
             case 'contact':
