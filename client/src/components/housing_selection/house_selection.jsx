@@ -34,7 +34,7 @@ function HouseSelection({dorms, setDorms, setPage}) {
 
     const fetchDorms = async () => {
         try {
-            const response = await fetch("http://127.0.0.1:5000/dorms");
+            const response = await fetch("https://dormify-production.up.railway.app/dorms");
             if (!response.ok) {throw new Error("Failed to fetch dorms");}
             const data = await response.json();
             setDorms(data);
@@ -51,7 +51,7 @@ function HouseSelection({dorms, setDorms, setPage}) {
                 groupExclusive: filters.groupExclusive
             });
 
-            const response = await fetch(`http://127.0.0.1:5000/dorms-filter?${queryParams}`);
+            const response = await fetch(`https://dormify-production.up.railway.app/dorms-filter?${queryParams}`);
             if (!response.ok) { throw new Error("Failed to fetch dorms"); }
             const data = await response.json();
             setDorms(data);
