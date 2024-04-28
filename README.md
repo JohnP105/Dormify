@@ -19,7 +19,7 @@ Dormify is a full-stack dorm app designed to simplify dorm life for students. It
 3. Activate the virtual environment: 
    - Mac Users: `source venv/bin/activate`
    - Window Users: `venv\Scripts\activate`
-4. Install required packages (Use `pip` for windows): `pip3 install -r backend/requirements.txt`
+4. Install required packages (Use `pip` for windows): `pip3 install -r requirements.txt`
 5. Run the server: `python3 main.py`
 
 ### Run PyTest
