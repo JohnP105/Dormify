@@ -3,9 +3,10 @@ Main module for the Flask application.
 """
 
 from backend import create_app
+import os
 
 app = create_app()
 
-# No need to run the app here
-# if __name__ == '__main__':
-#     app.run(debug=True)
+# python web server
+if __name__ == '__main__':
+    app.run(debug=True, port=os.getenv("PORT", default=5000))
