@@ -6,5 +6,6 @@ from backend import create_app
 
 app = create_app()
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# No need to run the app here
+# if __name__ == '__main__':
+#     app.run(debug=True)

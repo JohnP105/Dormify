@@ -1,0 +1,6 @@
+# railway.yaml
+name: Dormify
+services:
+  web:
+    env: python=3.9
+    start: python wsgi.py
