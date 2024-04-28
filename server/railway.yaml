@@ -1,8 +1,0 @@
-# railway.yaml
-name: Dormify
-services:
-  web:
-    command: "python wsgi.py"
-    buildScript: "pip install -r requirements.txt"
-    healthCheckPath: "/"
-    internalPort: 8000
