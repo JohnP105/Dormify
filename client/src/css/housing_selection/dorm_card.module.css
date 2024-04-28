@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.card {
+    display: block;
+    background-color: white;
+    text-align: left;
+    border-radius: 8px;
+    position: relative;
+    font-family: Inter, Arial;
+}
+
+.card img {
+    width: 100%; /* Make the image fill the container horizontally */
+    height: 200px; /* Allow the height to adjust according to the image aspect ratio */
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cardInput {
+    margin: 0; /* Reset margin */
+    padding: 5px; /* Add padding */
+    display: block;
+    position: absolute; /* Position the input absolutely within the card */
+    top: 8px; /* Position the input 10px from the top */
+    left: 8px; /* Position the input 10px from the left */
+    width: 16px; /* Calculate width to accommodate padding */
+    height: 16px;
+    background-color: white;
+    border: 1px solid red; /* Default borderF color */
+}
+
+.cardContent {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    padding: 0 16px 16px 16px;
+    border-radius: 8px;
+    margin-bottom: 40px; /*This margin is required so that the semester rate positioned below do not clip the contents*/
+}
+
+
+.cardContent h2 {
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 12px 0px 8px 0px;
+}
+
+.cardContent p {
+    font-size: 12px;
+}
+
+.cardSemesterRates {
+    border-top: solid #EAEAEA 1px;
+    padding: 16px 0px 16px 16px;
+
+    font-size: 12px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.amenity {
+    padding: 0.2rem 0.2rem;
+    font-weight: bolder;
+}
+
+

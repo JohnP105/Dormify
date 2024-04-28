@@ -1,0 +1,65 @@
+
+.container {
+    background-color: #f4f3f2;
+}
+
+
+.house_selection {
+    background-color: #f4f3f2;
+    width: 100%;
+}
+
+.noDormMatch {
+    font-family: Inter, serif;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.house_selection_panel{
+    display: inline-block;
+    flex-wrap: wrap;
+    gap: 50px;
+    min-height: 65vh;
+}
+
+.noDormMatch {
+    font-family: Inter;
+    font-size: 18px;
+    padding-top: 2rem;
+}
+
+.dormCardContainer {
+    width: 80%;
+    padding-top: 1%;
+    padding-right: 4%;
+    padding-left: 4%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 16px;
+}
+.dormCardContainerList{
+
+    width: 80%;
+    padding-top: 1%;
+    padding-right: 4%;
+    padding-left: 4%;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+
+}
+.dormCardContainerMap{
+    width: 80%;
+    padding-top: 1%;
+    margin-right: 3%;
+    padding-left: 4%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+@media (max-width: 1200px) {
+    .dormCardContainer {
+        width: 100%;
+    }
+}

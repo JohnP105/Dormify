@@ -1,0 +1,129 @@
+.AvailableDormsTitle {
+    font-weight: bold;
+    float: left;
+    font-size: 18px;
+    color: #333; /* Adjust the color to your preference */
+    padding: 0.25rem; /* Added padding */
+}
+
+.AvailableDormsSearchAndSortDiv {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: space-between; /* Align items at the beginning and end */
+    padding: 2% 4% 0 4%;
+    width: 80%;
+}
+
+.addFiltersButton {
+    border-radius: 5px;
+    height: 28px;
+    width: 112px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 10px;
+    float: right;
+    background-color: #2C87C3;
+    color: white;
+    border: none; /* Remove the border */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.addFiltersButton:hover {
+    background-color: #1e5b84; /* Darken the background color on hover */
+}
+.sortBy {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 1rem;
+}
+
+.selection {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    gap: 0.5rem;
+}
+
+.selection:hover {
+    cursor: pointer;
+}
+
+.selectionButton {
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    padding: 0.25rem 1rem;
+    border-radius: 0.5rem;
+    border-color: black;
+    border-width: 1px;
+}
+
+.selectionButton:hover {
+    background-color: #d4d3d2; /* Darken the background color on hover */
+}
+
+.sortByTitle {
+    font-weight: bold;
+    font-size: 14px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.sortByBoxes {
+    border-radius: 0.5rem;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+    padding: 0.25rem 1rem;
+}
+
+
+.sortByBoxes_textBar {
+    font-size: 11px;
+    padding-left: 5px;
+    font-family: 'Inter', sans-serif;
+    margin-right: 5%;
+    width: 21%;
+    min-width: 100px;
+    border-radius: 5px;
+    border: solid #f4f3f2;
+    height: 30px;
+}
+
+
+
+
+@media (max-width: 1200px) {
+    /* When the viewport width is 1200px or smaller */
+    .AvailableDormsSearchAndSortDiv {
+        width: 100%;
+    }
+    /*.sortByBoxes {*/
+    /*    margin-right: 1%;*/
+    /*    width: 5%;*/
+    /*    min-width: 50px;*/
+    /*}*/
+    /*.AvailableDormsTitle {*/
+    /*    margin-left: 3%;*/
+    /*}*/
+    /*.selection {*/
+    /*    width: auto;*/
+    /*}*/
+    /*.sortByTitle {*/
+    /*    padding-right: 5px;*/
+    /*    min-width: 5%;*/
+    /*}*/
+    /*.boxesAndTitle {*/
+    /*    text-align: right;*/
+    /*    min-width: 525px;*/
+    /*    width: 67%;*/
+    /*}*/
+    /*.sortByBoxes_textBar {*/
+    /*    width: 100px;*/
+    /*    margin-right: 1px;*/
+    /*}*/
+}
+

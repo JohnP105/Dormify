@@ -1,0 +1,37 @@
+.dormCard{
+    max-width: 20%;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 20%;
+
+    min-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.nextImageButton {
+        width: 700px;
+        height: 30px;
+        float: left;
+        margin-Left: 4%;
+        margin-Top: 20px;
+        transition: background-color 0.3s ease;
+        border-radius: 0.5rem;
+        border-color: black;
+        border-width: 1px;
+    }
+.nextImageButton:hover{
+    cursor: pointer;
+    background-color: #d4d3d2;
+}
+
+.map{
+    width: 700px;
+    height: 400px;
+}
+.clickableMapElements{
+
+}
+.clickableMapElements:hover{
+
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.faqPageContentsContainer {
+    margin-top: 84px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: stretch;
+}
+
+.faqPageContentsContainerH2 {
+    margin: 16px 0px 12px 5vw;
+    font: 32px Inter;
+    font-weight: 900;
+}
+
+.faqPageContents {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.faqQuestionBlock {
+    display: block;
+    margin-bottom: 48px;
+}

@@ -1,0 +1,46 @@
+.contactContainer {
+    background-color: #545578;
+    height: 100%;
+    padding: 48px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Inter";
+    color: white;
+
+    width: 866px;
+    height: 310px;
+}
+
+.contactContent > * {
+    margin-bottom: 24px;
+}
+
+.contactContent h2 {
+    font-weight: 900;
+    font-family: Inter;
+    font-size: 30px;
+}
+
+.contactContent p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.contactImage img {
+    border: white solid 8px;
+    width: 374px;
+    height: 214px;
+
+}
+
+.contactSupport {
+    background: white;
+    width: 360px;
+    height: 67px;
+    font-weight: 500;
+    font-family: Inter;
+    color: #545578;
+    align-content: center;
+    text-align: center;
+
+}

@@ -1,0 +1,28 @@
+- We are going to use:
+  - Python
+  - pipenv
+  - GitHub Actions
+- Agile Practices:
+  - Scrum:
+    - Planning
+    - Product backlog
+    - Daily standups
+    - Retrospectives
+    - Review
+  - ZenHub:
+    - Creating user stories
+    - Task progression and issues tracking
+- Libraries/Frameworks:
+  - discord.py
+- Collaboration:
+  - Establish a meeting schedule that works for everyone
+  - Utilize MongoDB database system
+  - Use tabs over spaces for code formatting
+  - Add comments over each function for easier understanding
+  - Provide meaningful commit names and comments
+  - Notify the group before pushing changes (specifying which files are changed)
+  - Discuss with the group what we are working on to avoid conflicts in the same file
+- Development Environment:
+  - All use PyCharm
+- Meetings:
+  - Schedule 2-3 meetings a week for updates, planning, and coordination.

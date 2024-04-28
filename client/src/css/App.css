@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+#root {
+
+}
+
+
+.container {
+  min-width: 800px; /* Set minimumm width for the content */
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Page header for each page. E.g the contact us page will have a header on top saying "Contact Us"*/
+.pageHeader {
+    text-align: center;
+    display: block;
+    align-items: center;
+    font-weight: 1000;
+    font-size: 24px;
+    padding: 1rem 0;
+    font-family: Inter, serif;
+    background-color: #545578;
+    color: #f4f3f2;
+}
+
+
+

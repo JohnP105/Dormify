@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.filtersPanel{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-left: 50px;
+    width: 15%;
+    padding-top: 2%;
+}
+
+:root{
+    background-color: #F5F5F5;
+
+}
+
+
+.generalFiltersIndividualCheckboxes{
+    font-size: 14px;
+
+}
+.hideFiltersPanelMinimize{
+    flex-grow: 1;
+    flex-basis: 200px;
+    float: right;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.checkboxFilterTitle{
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    padding-right: 8px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.amenitiesTypeField{
+float: left;
+}
+
+
+.sliderLeftText{
+    float: left;
+    margin-left: 10px;
+}
+
+.sliderRightText{
+    float: right;
+}
+
+.checkboxFilter{
+    display: flex;
+    flex-direction: column;
+}
+.checkboxFilterName{
+
+    margin-left: 5px;
+}
+.filtersPanelField{
+
+    text-align: center;
+    float: left;
+    display: block;
+    width: 100%;
+
+}
+
+.sliders{
+    height: 3px;
+    width: 90%;
+}
+
+.FiltersPanelTitle{
+
+    font-size: 18px;
+    float: left;
+    align-items: start;
+}
+
+.showMore{
+    color: #2C87C3;
+    font-size: 12px;
+}
+.showMore:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .filtersPanel{
+        display: none;
+    }
+}
+

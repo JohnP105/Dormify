@@ -1,0 +1,63 @@
+/* Navigation.css */
+
+.pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    font-size: 0.9rem;
+    background-color: #1a1b29;
+    color: white;
+}
+
+.select_pages {
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+    font-weight: bold;
+    padding: 0.75rem 0;
+}
+
+.pages_list a {
+    color: white;
+    font-family: "Inter", "sans-serif";
+}
+.pages_list a { transition: color 0.3s; /* Smooth transition effect */}
+.pages_list a:hover {color: darkorange; cursor: pointer;/* Color change on hover */}
+
+.pages_list div {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+/* Search Button */
+.search-button {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.search-button input {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    cursor: text;
+    font-family: "Inter", sans-serif;
+}
+
+.search-button button {
+    background-color: darkorange;
+    color: black;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-family: "Inter", "sans-serif";
+}
+
+.search-button button:hover {
+    background-color: black;
+    color: darkorange;
+}

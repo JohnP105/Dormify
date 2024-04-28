@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+/* DORMS */
+.dorms {
+    margin: 1rem 1.5rem;
+    padding: 0.5rem 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.75rem;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden; /* Hide overflow content */
+    overflow-x: auto;
+    min-height: 65vh; /* Fixes the page when no cards are present, now looks better*/
+}
+
+.dorm-list {
+    padding: 0.25rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.25rem;
+    flex-shrink: 0; /* Prevent dorms from shrinking */
+}
+
+.dorm-list.maxSelected {
+    width: 25%; /* Default width for multiple dorms */
+    flex-shrink: 0; /* Prevent dorms from shrinking */
+    flex: None; /* Reset flex property to its initial value */
+}
+
+
+.dorm-list > div {
+    padding: 0.25rem 0.25rem; /* Add padding inside each direct child div */
+    width: 100%;
+}
+
+.line {
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.5); /* Bottom border with 50% transparency */
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+/* DORM CONTENTS */
+.dorm-img img, .house-img img{
+    max-width: 100%;
+    max-height: 100%;
+    height:200px;
+}
+
+.missingDorms {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.missingDorms > * {
+    margin: 8px 0;
+}
+
+.missingDorms img {
+    width: 50%;
+}
+
+.arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    background-color: #f4f3f2;
+}
+
+.arrow:hover{
+    cursor: pointer;
+}
+
+
+.Left{
+    transform:rotate(135deg);
+}
+
+.Right{
+    transform: rotate(-45deg);
+}

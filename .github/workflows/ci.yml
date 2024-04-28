@@ -1,0 +1,30 @@
+name: CI
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.12.2  # Python version
+
+    - name: Install server dependencies
+      run: |
+        cd server
+        python3 -m venv venv
+        source venv/bin/activate
+        pip3 install -r backend/requirements.txt
+
+    - name: Run server tests
+      run: |
+        cd server
+        source venv/bin/activate
+        pip3 install pytest
+        venv/bin/pytest

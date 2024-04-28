@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.root{
+    font-family: 'Inter', sans-serif;
+
+}
+.ListCard{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    background-color: white;
+}
+
+.leftAlignContainer {
+    display: flex;
+    margin: auto 0;
+}
+
+.rightAlignContainer {
+    display: flex;
+    margin: auto 12px;
+}
+
+/*Give every single element inside the right align container a margin of 6px
+so that each element inside is spaced 12px */
+.rightAlignContainer > * {
+    margin: 0 6px;
+}
+
+.dormImage{
+    transform: translateY(-148px);
+    height: 200px;
+    width: 210px;
+    border-radius: 20px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+}
+.ListCardInfo{
+    background-color: white;
+    height: 200px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.dormName{
+    width: fit-content;
+    margin: 6px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    color: black;
+}
+
+.CheckBox{
+    margin: auto 6px auto 12px;
+    width: 16px;
+    height: 16px;
+
+}
+.semesterRate{
+    font-weight: bold;
+    color: black;
+    font-family: "Inter","sans-serif";
+}
+
+.dropDown{
+    justify-self: flex-end;
+    font-weight: bold;
+    color: black;
+}
+.dropDown:hover{
+    cursor: pointer;
+}
+.amenity{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    padding-left: 223px;
+    font-size: 20px;
+
+}
+.amenity:visited{
+    color: inherit;
+
+}

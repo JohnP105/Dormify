@@ -1,0 +1,39 @@
+.faqContainer {
+    /*height: 120px;*/
+    display: block;
+    width: 85vw;
+    border-bottom: solid black 2px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    /*background-color: red;*/
+    font-family: Inter;
+}
+
+.faqHeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: white;*/
+
+}
+
+.faqHeaderContainer h2 {
+    font-weight: 1200;
+    font-size: 32px;
+}
+
+.faqHeaderContainer img {
+    height: 18px;
+    width: 32px;
+    margin-right: 32px;
+}
+.faqAnswerContainer {
+    display: block;
+    margin-top: 24px;
+}
+
+.faqAnswerContainer p {
+    font-size: 24px;
+    /*background-color: red;*/
+    border-color: inherit;
+}

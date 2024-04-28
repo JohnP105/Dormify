@@ -1,0 +1,79 @@
+.contactPageContainer {
+    font-family: Inter;
+    display: flex;
+    justify-content: stretch;
+    font-size: 16px;
+    margin: 48px 64px 0px 64px;
+}
+
+.contactPageContainer h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contactPersonContainer {
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    font-size: 16px;
+    padding: 16px 0;
+
+    border-top: #DBDBDB solid 1px;
+    border-bottom: #DBDBDB solid 1px;
+}
+
+.jobTitle {
+    font-weight: bold;
+}
+
+
+.contactInformationContainer {
+    flex-grow: 1;
+    margin-right: 48px;
+}
+
+.contactInformationBlock {
+    margin-top: 108px;
+}
+
+.contactInformationBlock h2 {
+    margin-bottom: 16px;
+}
+
+.sendMessageContainer {
+    flex-grow: 7;
+    display: flex;
+    flex-direction: column;
+}
+
+.sendMessageContainer h2 {
+    padding-bottom: 8px;
+    border-bottom: #DBDBDB solid 1px;
+}
+
+.sendMessageContainer input {
+    display: flex;
+    margin: 24px 0;
+    height: 42px;
+    font-size: 16px;
+    padding: 0.5rem;
+}
+
+.sendMessageContainer textarea {
+    font-size: 16px;
+    margin: 24px 0;
+    padding: 0.5rem;
+}
+
+.sendMessageContainer button {
+    font-size: 16px;
+    margin: 24px 0;
+    padding: 0.25rem;
+    cursor: pointer;
+}
+
+.sendMessageContainer .message {
+    height: 20rem;
+    margin-bottom: 16px;
+}

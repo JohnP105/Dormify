@@ -1,0 +1,7 @@
+.footer {
+    margin-top: 96px;
+    display: flex;
+    justify-content: stretch;
+    height: 84px;
+    background-color: #26293B;
+}
